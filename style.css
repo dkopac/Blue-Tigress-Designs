@@ -1,0 +1,103 @@
+header {
+    background-color: #00509E; /* Dark blue header */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    max-width: 400px;
+    height: auto;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin: 0 auto; /* Center the logo container */
+}
+
+body {
+    background-color: #89CFF0; /* Baby blue background */
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #89CFF0; /* Light blue navigation */
+    padding: 10px 0;
+    text-align: center;
+    text-decoration: underline;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.26);
+}
+
+nav:hover {
+    color: #fff;
+}
+
+h1 {
+    color: #89CFF0;
+
+}
+
+h2{
+    color: #00509E;
+    font-size: 35px;
+    text-align: center;
+}
+
+h3{
+    color: #00509E;
+    font-size: 30px;
+    text-align: center;
+}
+
+.headings-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+h4, h5, h6 {
+    color: #00509E;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+    border: 2px solid #00509E; /* Add border */
+    border-radius: 10px; /* Rounded borders */
+}
+
+p {
+    line-height: 1.6;
+    margin: 0 0 1em;
+}
+
+a {
+    color: #00509E;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+button {
+    background-color: #00509E;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #003f7f;
+}
