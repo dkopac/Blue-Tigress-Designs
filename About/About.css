@@ -26,15 +26,16 @@ body {
 }
 
 nav {
-    background-color: #89CFF0;
+    background-color: #89CFF0; /* Light blue navigation */
     padding: 10px 0;
     text-align: center;
-    text-decoration: underline;
+    text-decoration:solid;
     box-shadow: 0 2px 5px rgba(0,0,0,0.26);
+    letter-spacing: 3px;
 }
 
-nav:hover {
-    color: #fff;
+nav :hover {
+    background-color: #db04ef;;
 }
 
 header h1 {
