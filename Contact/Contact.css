@@ -11,7 +11,8 @@ header {
 
 body {
     background-color: #89CFF0; /* Baby blue background */
-    font-family: Arial, sans-serif;
+    font-family: "Teko", sans-serif;
+    font-size: 25px;
     color: #333;
     margin: 0;
     padding: 0;
@@ -28,10 +29,19 @@ body {
     margin: 20px auto;
 }
 
-header{
+head {
     background-color: #00509E; /* Dark blue */
+    font-family: "Teko", sans-serif;
+    font-size: 40px;
     color: #fff;
     padding: 10px 0;
+    text-align: center;
+}
+
+h2 {
+    color: #00509E; /* Dark blue */
+    font-family: "Teko", sans-serif;
+    font-size: 30px;
     text-align: center;
 }
 
@@ -49,18 +59,22 @@ nav {
     margin: auto;
     overflow: hidden;
 }
-#contact-form {
+
+ #contact-form {
     background: #fff;
-    padding: 20px;
+    padding: 35px;
     margin-top: 30px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    justify-content: center;
 }
+
 input[type="text"], input[type="email"], textarea {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
     border: 1px solid #ccc;
 }
+
 input[type="submit"] {
     display: block;
     width: 100%;

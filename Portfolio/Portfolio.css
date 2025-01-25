@@ -1,6 +1,8 @@
 /* Header Styles */
 header {
     background-color: #00509E;
+    font-family: "Teko", sans-serif;
+    font-size: 40px;
     color: #fff;
     padding: 10px 0;
     text-align: center;
@@ -22,7 +24,8 @@ header {
 
 /* General Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Teko", sans-serif;
+    font-size: 25px;
     margin: 0;
     padding: 0;
     background-color: #89CFF0;
@@ -32,6 +35,8 @@ body {
 nav {
     background-color: #06acf9; /* Light blue navigation */
     padding: 10px 0;
+    font-family: "Teko", sans-serif;
+    font-size: 30px;
     text-align: center;
     text-decoration:solid;
     box-shadow: 0 2px 5px rgba(0,0,0,0.26);

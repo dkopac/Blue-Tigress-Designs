@@ -1,5 +1,7 @@
 header {
     background-color: #00509E; /* Dark blue header */
+    font-family: "Teko", serif;
+    font-size: 40px;
     color: #fff;
     padding: 10px 0;
     text-align: center;
@@ -20,7 +22,8 @@ header {
 
 body {
     background-color: #89CFF0; /* Baby blue background */
-    font-family: Arial, sans-serif;
+    font-family: "Teko", sans-serif;
+    font-size: 35px;
     color: #333;
     margin: 0;
     padding: 0;
@@ -29,6 +32,10 @@ body {
 nav {
     background-color: #89CFF0; /* Light blue navigation */
     padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    font-family: "Teko", serif;
+    font-size: 30px;
     text-align: center;
     text-decoration:solid;
     box-shadow: 0 2px 5px rgba(0,0,0,0.26);
@@ -37,6 +44,10 @@ nav {
 
 nav:hover {
     color: #db04ef;
+}
+
+nav a {
+    margin: 0 15px; /* Add spacing between words */
 }
 
 nav a:hover {
@@ -58,7 +69,7 @@ h2{
 
 h3{
     color: #00509E;
-    font-size: 30px;
+    font-size: 35px;
     text-align: center;
 }
 
@@ -70,7 +81,7 @@ h3{
 
 h4, h5, h6 {
     color: #00509E;
-    font-size: 20px;
+    font-size: 35px;
     text-align: center;
     margin: 0;
     padding: 10px 0;
@@ -81,6 +92,8 @@ h4, h5, h6 {
 p {
     line-height: 1.6;
     margin: 0 0 1em;
+    font-size: 25px;
+    text-align: center;
 }
 
 a {
