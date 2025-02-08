@@ -1,7 +1,6 @@
 header {
-    background-color: #00509E; /* Dark blue header */
     font-family: "Teko", serif;
-    font-size: 40px;
+    font-size: 50px;
     color: #fff;
     padding: 10px 0;
     text-align: center;
@@ -21,16 +20,17 @@ header {
 }
 
 body {
-    background-color: #89CFF0; /* Baby blue background */
+    background-image: url("BTD\ Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: "Teko", sans-serif;
     font-size: 35px;
-    color: #333;
+    color: rgb(255, 0, 255);
     margin: 0;
     padding: 0;
 }
 
-nav {
-    background-color: #89CFF0; /* Light blue navigation */
+nav {    
     padding: 10px 0;
     display: flex;
     justify-content: center;
@@ -62,13 +62,13 @@ h1 {
 }
 
 h2{
-    color: #00509E;
+    color: #89CFF0;
     font-size: 35px;
     text-align: center;
 }
 
 h3{
-    color: #00509E;
+    color: #89CFF0;
     font-size: 35px;
     text-align: center;
 }
@@ -80,12 +80,12 @@ h3{
 }
 
 h4, h5, h6 {
-    color: #00509E;
+    color: #89CFF0;
     font-size: 35px;
     text-align: center;
     margin: 0;
     padding: 10px 0;
-    border: 2px solid #00509E; /* Add border */
+    border: 2px solid #89CFF0; /* Add border */
     border-radius: 10px; /* Rounded borders */
 }
 
@@ -97,7 +97,7 @@ p {
 }
 
 a {
-    color: #00509E;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -112,7 +112,7 @@ a:hover {
 }
 
 button {
-    background-color: #00509E;
+    background-color: #89CFF0;
     color: #fff;
     border: none;
     padding: 10px 20px;

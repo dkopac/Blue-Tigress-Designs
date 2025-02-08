@@ -1,5 +1,6 @@
 header {
-    background-color: #00509E;
+    font-family: "Teko", serif;
+    font-size: 30px;
     color: #fff;
     padding: 10px 0;
     text-align: center;
@@ -19,19 +20,32 @@ header {
 }
 
 body {
-    font-family: Arial, sans-serif;
+    background-image: url("../BTD\ Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Teko", sans-serif;
+    font-size: 25px;
+    color: #fff;
     margin: 0;
     padding: 0;
-    background-color: #89CFF0;
 }
 
 nav {
-    background-color: #89CFF0; /* Light blue navigation */
+    /* background-color: #89CFF0; Light blue navigation */
     padding: 10px 0;
     text-align: center;
     text-decoration:solid;
     box-shadow: 0 2px 5px rgba(0,0,0,0.26);
     letter-spacing: 3px;
+    display: flex;
+    justify-content: center;
+    font-family: "Teko", serif;
+    font-size: 30px;
+    text-align: center;
+    text-decoration:solid;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.26);
+    letter-spacing: 3px;
+    
 }
 
 nav :hover {
@@ -51,12 +65,16 @@ header h1 {
 
 section {
     padding: 20px;
-    background: #fff;
+    /* background: #fff; */
     margin: 20px 0;
+    border-radius: 5px;
 }
 
 section h2 {
-    margin-top: 0;
+    color: #89CFF0;
+    font-size: 2em;
+    text-align: center;
+    margin: 0;
 }
 
 footer {
