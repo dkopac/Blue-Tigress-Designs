@@ -1,12 +1,12 @@
 /* Header Styles */
 header {
-    background-color: #00509E;
-    font-family: "Teko", sans-serif;
-    font-size: 40px;
+    font-family: "Teko", serif;
+    font-size: 20px;
     color: #fff;
     padding: 10px 0;
     text-align: center;
     display: flex;
+    flex-direction: column; /* Stack children vertically */
     justify-content: center;
     align-items: center;
 }
@@ -22,48 +22,78 @@ header {
     margin: 0 auto;
 }
 
-/* General Styles */
 body {
+    background-image: url("../BTD\ Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: "Teko", sans-serif;
     font-size: 25px;
+    color: rgb(255, 0, 255);
     margin: 0;
     padding: 0;
-    background-color: #89CFF0;
-    color: #333;
 }
-
 nav {
-    background-color: #06acf9; /* Light blue navigation */
     padding: 10px 0;
-    font-family: "Teko", sans-serif;
-    font-size: 30px;
     text-align: center;
-    text-decoration:solid;
+    text-decoration: solid;
     box-shadow: 0 2px 5px rgba(0,0,0,0.26);
     letter-spacing: 3px;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
 }
 
 
-nav :hover {
+nav a {
+    margin: 0 15px;
+    color: #fff;
+    display: flex;
+    justify-content: center; /* Center text horizontally */
+    align-items: center; /* Center text vertically */
+    height: 100%; /* Ensure full height for centering */
+}
+
+nav a:hover {
     background-color: #db04ef;
+    color: #fff;
+    border-radius: 5px;
 }
 
 /* Main Content Styles */
 main {
     padding: 20px;
+    text-align: center;
+    margin: auto;
+    font-family: "Teko", sans-serif;
 }
 
 section {
     margin-bottom: 20px;
+    border-radius: 5px;
+    border-style: double;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #fff;
 }
 
 section h2 {
     font-size: 2em;
     margin-bottom: 10px;
+    border-style: groove;
+    border-radius: 5px;
+    padding: 5px;
+    color:aqua;
+    border-color: fuchsia;
 }
 
 section p {
     line-height: 1.6;
+    margin-bottom: 10px;
+    border-style: groove;
+    border-radius: 5px;
+    padding: 5px;
+    color:aqua;
+    border-color: fuchsia;
 }
 
 /* Footer Styles */
