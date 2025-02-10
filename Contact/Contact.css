@@ -1,57 +1,61 @@
 header {
-    background-color: #00509E; /* Dark blue header */
+    font-family: "Teko", serif;
+    font-size: 20px;
     color: #fff;
     padding: 10px 0;
     text-align: center;
     display: flex;
+    flex-direction: column; /* Stack children vertically */
     justify-content: center;
     align-items: center;
 }
 
+.logo {
+    max-width: 400px;
+    height: auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
 
 body {
-    background-color: #89CFF0; /* Baby blue background */
+    background-image: url("../BTD\ Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: "Teko", sans-serif;
     font-size: 25px;
-    color: #333;
+    color: rgb(255, 0, 255);
     margin: 0;
     padding: 0;
 }
 
-.logo{
-    width: 300px;
-    height: 300px;
-    background-color: #89CFF0; /* Baby blue */
-    border-radius: 75%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 20px auto;
-}
-
-head {
-    background-color: #00509E; /* Dark blue */
-    font-family: "Teko", sans-serif;
-    font-size: 40px;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-}
-
-h2 {
-    color: #00509E; /* Dark blue */
-    font-family: "Teko", sans-serif;
-    font-size: 30px;
-    text-align: center;
-}
-
 nav {
-    background-color: #89CFF0; /* Light blue navigation */
+    /* background-color: #89CFF0; Light blue navigation */
     padding: 10px 0;
     text-align: center;
-    text-decoration:solid;
+    text-decoration: solid;
     box-shadow: 0 2px 5px rgba(0,0,0,0.26);
     letter-spacing: 3px;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+nav a {
+    margin: 0 15px;
+    color: #fff;
+    display: flex;
+    justify-content: center; /* Center text horizontally */
+    align-items: center; /* Center text vertically */
+    height: 100%; /* Ensure full height for centering */
+}
+
+nav a:hover {
+    background-color: #db04ef;
+    color: #fff;
+    border-radius: 5px;
 }
 
 .container {
@@ -60,7 +64,7 @@ nav {
     overflow: hidden;
 }
 
- #contact-form {
+#contact-form {
     background: #fff;
     padding: 35px;
     margin-top: 30px;
@@ -84,6 +88,15 @@ input[type="submit"] {
     padding: 10px;
     cursor: pointer;
 }
+
 input[type="submit"]:hover {
     background: #555;
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    bottom: 0;
+    width: 100%;
 }

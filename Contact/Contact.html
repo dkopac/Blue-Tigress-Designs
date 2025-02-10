@@ -3,32 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap" rel="stylesheet">
+    <title>Contact Us - Blue Tigress Designs</title>
     <link rel="stylesheet" href="Contact.css">
-    <a href="../index.html">Services</a>
 </head>
 <body>
-    <img src="../BTD Logo.jpg" alt="Blue Tigress Designs Logo" class="logo">
-    <div class="container">
-        <h2>Contact Us</h2>
-        <form id="contact-form" action="mailto:your-email@example.com" method="post" enctype="text/plain">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
-            
-            <input type="submit" value="Send">
-        </form>
-        <div class="contact-info">
-            <h3>Contact Information</h3>
-            <p>Email: (Lead Designer) dkopac@bluetigressdesigns.com</p>
-    </div>
+    <header>
+        <img src="../BTD Logo.jpg" alt="Blue Tigress Designs Logo" class="logo">
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="../About/About.html">About</a>
+            <a href="../Portfolio/Portfolio.html">Portfolio</a>
+            <a href="../Contact/Contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <input type="submit" value="Send Message">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 Blue Tigress Designs. All rights reserved.</p>
+    </footer>
 </body>
 </html>

@@ -1,6 +1,6 @@
 header {
     font-family: "Teko", serif;
-    font-size: 30px;
+    font-size: 20px;
     color: #fff;
     padding: 10px 0;
     text-align: center;
@@ -10,7 +10,7 @@ header {
 }
 
 .logo {
-    max-width: 300px;
+    max-width: 400px;
     height: auto;
     border-radius: 50%;
     display: flex;
@@ -25,18 +25,13 @@ body {
     background-size: cover;
     font-family: "Teko", sans-serif;
     font-size: 25px;
-    color: #fff;
+    color: rgb(255, 0, 255);
     margin: 0;
     padding: 0;
 }
 
 nav {
-    /* background-color: #89CFF0; Light blue navigation */
     padding: 10px 0;
-    text-align: center;
-    text-decoration:solid;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.26);
-    letter-spacing: 3px;
     display: flex;
     justify-content: center;
     font-family: "Teko", serif;
@@ -48,10 +43,16 @@ nav {
     
 }
 
-nav :hover {
-    background-color: #db04ef;;
+nav a {
+    margin: 0 15px;
+    color: #fff;
 }
 
+nav a:hover {
+    background-color: #db04ef;;
+    color: #fff;
+    border-radius: 5px;
+}
 header h1 {
     margin: 0;
     font-size: 2.5em;
@@ -64,10 +65,16 @@ header h1 {
 }
 
 section {
-    padding: 20px;
+    padding: 5px;
     /* background: #fff; */
+    text-align: center;
     margin: 20px 0;
     border-radius: 5px;
+    border-style: solid;
+    border-color: #89CFF0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.26);
+    color: #fff;
+
 }
 
 section h2 {
