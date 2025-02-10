@@ -1,12 +1,13 @@
 header {
     font-family: "Teko", serif;
-    font-size: 50px;
+    font-size: 100px;
     color: #fff;
     padding: 10px 0;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .logo {
@@ -92,8 +93,17 @@ h4, h5, h6 {
 p {
     line-height: 1.6;
     margin: 0 0 1em;
-    font-size: 25px;
+    font-size: 50px;
     text-align: center;
+}
+
+p1 {
+    line-height: 1.6;
+    margin: 0 0 1em;
+    font-size: 30px;
+    text-align: right;
+    position: center;
+    color: #fff;
 }
 
 a {
