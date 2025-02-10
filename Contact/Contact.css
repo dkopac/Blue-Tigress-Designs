@@ -61,9 +61,11 @@ nav a:hover {
 .container {
     width: 50%;
     margin: auto;
-    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-
 #contact-form {
     background: #fff;
     padding: 35px;
